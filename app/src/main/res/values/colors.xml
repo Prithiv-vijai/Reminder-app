@@ -1,0 +1,10 @@
+<resources>
+    <color name="colorPrimary">#FF75A4</color>
+    <color name="colorPrimaryDark">#FF6197</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="fab_color">#FF4081</color>
+    <color name="background_color">#FFADC9</color>
+    <color name="black">#000000</color>
+    <color name="reminder_background_color">#FF6399</color> <!-- Adjust the color as needed -->
+
+</resources>

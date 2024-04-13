@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Title EditText -->
+
+    <!-- Date EditText -->
+
+    <!-- Time EditText -->
+
+    <!-- Save Button -->
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
+
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="45dp"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/neww"
+        android:hint="Title"
+        android:inputType="text"
+        android:singleLine="false"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="350dp"
+        android:fontFamily="@font/neww"
+
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Date"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTitle" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:fontFamily="@font/neww"
+
+        android:layout_marginTop="27dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Time"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/fab_color"
+
+        android:fontFamily="@font/neww"
+
+        android:text="Save"
+        android:textColor="@android:color/white"
+        android:textColorLink="@color/fab_color"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextTime" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

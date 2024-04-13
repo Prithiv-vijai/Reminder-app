@@ -1,0 +1,103 @@
+<!-- res/layout/activity_about.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".AboutActivity">
+
+  <TextView
+      android:id="@+id/textViewAppName1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="90dp"
+      android:fontFamily="@font/neww"
+      android:text="DAILY ASSIST"
+      android:textSize="40sp"
+      android:textColor="@android:color/black"
+      app:layout_constraintHorizontal_bias="0.515"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textViewDescription2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="68dp"
+      android:layout_marginTop="77dp"
+      android:fontFamily="@font/neww"
+      android:padding="16dp"
+      android:textColor="@android:color/black"
+      android:text="VERSION : ANDROID PIE"
+      android:textSize="20sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewAppName1" />
+
+  <TextView
+      android:id="@+id/textViewDescription3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="96dp"
+      android:layout_marginTop="23dp"
+      android:textColor="@android:color/black"
+      android:fontFamily="@font/neww"
+      android:padding="16dp"
+      android:text="DATABASE : MYSQL"
+      android:textSize="20sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewDescription2" />
+
+  <TextView
+      android:id="@+id/textViewDescription4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="96dp"
+      android:layout_marginTop="23dp"
+      android:layout_marginEnd="97dp"
+      android:textColor="@android:color/black"
+      android:fontFamily="@font/neww"
+      android:padding="16dp"
+      android:text="SOURCE : JAVA 19"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewDescription3" />
+
+  <TextView
+      android:id="@+id/textViewDescription5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="63dp"
+      android:layout_marginBottom="144dp"
+      android:fontFamily="@font/neww"
+      android:textColor="@android:color/black"
+      android:padding="16dp"
+      android:text="EMPOWERED BY : NMBP"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <TextView
+      android:id="@+id/textViewDescription6"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="57dp"
+      android:layout_marginEnd="41dp"
+      android:textColor="@android:color/black"
+      android:layout_marginBottom="216dp"
+      android:fontFamily="@font/neww"
+      android:padding="20dp"
+      android:text="AVAILABILITY : IOS/ANDROID"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <!-- Add more TextViews for additional information -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

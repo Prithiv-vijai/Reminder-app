@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add1"
+        android:title="Add Reminder"
+        android:icon="@drawable/water"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/add2"
+        android:title="Add Reminder"
+        android:icon="@drawable/daily"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_about"
+        android:title="About"
+        android:icon="@drawable/settings"
+
+        app:showAsAction="never"/>
+
+</menu>
